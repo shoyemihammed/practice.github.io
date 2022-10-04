@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022 frontend developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="toppara">
+        <div class="title">
+            <a class="rem" href="index.html">Remember<span>That</span></a>
+            <img class="menu-bar" src="image/Menu 1.png" alt="Menu Bar">
+            <nav class="nav-bar hide">
+                <img class="exit-bar" src="Image/Exit1.png" alt="Exit Bar"><br><br><br>
+                <ul class="nav-bar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li class="go-premium"><a href="#">Go Premium</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section class="container-first">
+        <div class="sub-title">
+            <p class="nitty">it's Nitty &amp; Gritty</p>
+            <h1 class="header">A Task App That Doesn't Stick</h1>
+            <div class="sub-title-second">
+                <a class="try-for-free" href="#">Try For Free</a>
+                <a class="watch-video" href="#"><img class="watch" src="image/Watch.png" alt="">Watch a video</a>
+            </div>
+        </div>
+        <img class="illustration" src="image/illustration.png" alt="Illustratioin">
+    </section>
+    <seaction class="freautre-section">
+        <div class="container">
+            <ul class="unorder-list">
+                <li>Unlimited Tasks</li>
+                <li>SMS Task Reminders</li>
+                <li>Confetti Explosions upon Task Completions</li>
+                <li>Social Media Announcements</li>
+                <li>Real Time Collaboration</li>
+                <li>Other awesome feautres</li>
+            </ul>
+            <img class="security" src="image/security-audit-598px.jpg" alt="Man on system">
+        </div>
+    </seaction>
+    <section class="testimonial">
+        <div class="container-second">
+            <div class="border"><img class="border-image" src="image/istockphoto-846730696-170667a.jpg" alt="Person">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil similique at provident sapiente
+                    aut impedit dolore neque, debitis veniam iure corporis numquam quod illo veritatis quia nesciunt
+                    officia iste laborum velit? Hic quia saepe voluptatem earum odit temporibus in dolores amet iure
+                    corporis! Suscipit eveniet eum ea perferendis molestiae nisi hic ipsum culpa provident accusantium
+                    corporis illo veritatis minima explicabo, mollitia, sunt accusamus qui cupiditate odio voluptas
+                    dolore quam vero! Perspiciatis quasi quia est temporibus, nihil iure ullam sapiente expedita quo
+                    aut? Quia accusamus distinctio ut nulla, non, at facere explicabo laudantium provident vero maiores,
+                    eveniet reprehenderit quisquam ullam!</p>
+                <cite>~ Jane Doe</cite>
+            </div>
+            <div class="border"><img class="border-image" src="image/istockphoto-846730696-170667a.jpg" alt="Person">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur similique ad magni libero cum fuga
+                    ipsam atque ipsum odio consequuntur commodi nostrum modi id dolores doloribus officia nisi aliquid
+                    sed natus, delectus totam voluptate! Atque vero, in eos at iure, nostrum eveniet molestias harum
+                    soluta laborum ab quas incidunt labore minima culpa cupiditate, maiores facere animi? Eveniet
+                    accusantium quia officiis odit quibusdam quisquam provident assumenda! Fugiat sit sunt omnis ullam,
+                    laborum ipsam illo, dolores aut consequatur, sint neque. Earum exercitationem id atque nemo
+                    molestias, ex quia esse adipisci laudantium enim consequuntur iure commodi veniam magni labore
+                    possimus delectus aut repellat.</p>
+                <cite>~ Jane Doe</cite>
+            </div>
+            <div class="border"><img class="border-image" src="image/istockphoto-846730696-170667a.jpg" alt="Person">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cum quasi aspernatur,
+                    reiciendis minima, enim consequatur voluptate sed mollitia hic explicabo ab ad in maxime officiis
+                    ullam sequi soluta? Adipisci, consequatur autem voluptatibus velit ad atque sunt in earum. Illum
+                    doloremque voluptatibus facere sed aspernatur dicta cumque expedita at id in vero cupiditate magni
+                    iste quis dolore laboriosam dolorem accusamus eligendi excepturi minima, facilis temporibus. Totam,
+                    aliquid impedit? Veniam iure ad corrupti quos. Sequi placeat quod optio incidunt aperiam mollitia,
+                    quis, nihil veniam nesciunt distinctio quae, consectetur animi. Laudantium at asperiores dolorem
+                    optio ratione ut fugit voluptate deserunt accusantium quas?</p>
+                <cite>~ Jane Doe</cite>
+            </div>
+        </div>
+    </section>
+    <section class="the-footer">
+        <div class="form">
+            <h2>Contact</h2>
+            <form action="">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <script>
+        const menuBar = document.querySelector('.menu-bar');
+        const exitBar = document.querySelector('.exit-bar');
+        const navBar = document.querySelector('.nav-bar')
+
+        menuBar.addEventListener('click', function () {
+            navBar.classList.remove('hide')
+        });
+        exitBar.addEventListener('click', function () {
+            navBar.classList.add('hide')
+        });
+    </script>
+</body>
+
+</html>
